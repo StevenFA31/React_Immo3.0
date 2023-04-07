@@ -7,7 +7,7 @@ type contentProps = {
 
 function Content(props: contentProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 mx-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-40">
       {props.property.map((item, index) => (
         <PropertyCard key={index} property={item} />
       ))}

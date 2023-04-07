@@ -1,15 +1,11 @@
 import Navbar from "./navbar";
-// import PropertyCard from "./PropertyCard";
-import PropertyList from "./PropertyList";
+import Search from "./search";
 
 function Header() {
   return (
-    <div>
+    <div className="flex flex-col justify-between h-96 bg-[url('../assets/pexels-vecislavas-popa-1643389.jpg')] bg-cover bg-no-repeat ">
       <Navbar />
-      {/* <PropertyCard /> */}
-      <div className="container">
-        <PropertyList />
-      </div>
+      <Search />
     </div>
   );
 }

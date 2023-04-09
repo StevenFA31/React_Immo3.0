@@ -5,7 +5,7 @@ import PropertyCard from "./PropertyCard";
 // Importer "fetch" dans votre composant React :
 
 import React, { useEffect, useState } from "react";
-import Content from "./Content";
+import Content from "./content";
 
 export interface PropertyType {
   title: String;
